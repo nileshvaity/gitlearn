@@ -1,0 +1,39 @@
+https://www.youtube.com/watch?v=VI07ouVS5FE
+
+Git and GitHub Beginner Tutorial 4 - Enable git commands autocomplete and colors on Mac
+=====================================================================
+
+Today we will learn
+———————————
+1. How to enable git commands autocomplete feature on mac os
+2. How to enable git commands color features on mac os
+____________________________________________________
+
+For autocomplete
+——————————
+Step 1 :  goto terminal
+        put git-completion.bash script in your home directory
+curl https://raw.githubusercontent.com/git... -o ~/.git-completion.bash
+
+
+Step 2 : Add following line to your .bash_profile. 
+       This tells bash to run git autocomplete script if it exists
+
+vi ~/.bash_profile
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+
+For enabling git colors
+————————————
+
+Step 1 : check if colouring is already enabled
+  terminal - git config color.ui
+
+Step 2 : enable colouring 
+  git config --global color.ui true
+
+
+
