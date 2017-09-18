@@ -1,0 +1,16 @@
+https://www.youtube.com/watch?v=Ft2LXlaSEfs
+
+
+Git and GitHub Beginner Tutorial 6 - How to send email from GitHub
+======================================================
+
+Today we will learn
+———————————
+How to trigger notification email from github 
+whenever there is any change/commit in the project
+_________________________________________
+
+Step 1 : Github - Repository - Settings - integration & services - add email 
+
+Step 2 : Test and validate by making some change in the project
+
