@@ -1,0 +1,446 @@
+    1  sudo su -
+    2  ssh-keygen
+    3  ls -l .ssh/
+    4  cat .ssh/id_rsa.pub 
+    5  sudo add-apt-repository ppa:lenski/openconnect-gp
+    6  sudo apt-get update
+    7  apt install openconnect-gp
+    8  sudo apt install openconnect-gp
+    9  sudo apt-get update
+   10  sudo apt install openconnect
+   11  uname -a
+   12  cat /etc/lsb-release 
+   13  sudo apt install openconnect
+   14  openconnect 
+   15  sudo apt install openconnect-gp
+   16  sudo apt install openconnect
+   17  sudo su -
+   18  ifconfig
+   19  sudo su -
+   20  ssh vagrant@10.15.2.56
+   21  ifconfig
+   22  ping netdom.loc
+   23  openconnect 124.153.65.2
+   24  openconnect --protocol=gp 124.153.65.2
+   25  sudo openconnect --protocol=gp 124.153.65.2
+   26  sudo openconnect --protocol=gp vpn.ntti3.com
+   27  ssh vagrant@10.15.2.183
+   28  ssh vagrant@10.15.2.201
+   29  sudo su -
+   30  ssh vagrant@10.15.2.185
+   31  ssh vagrant@10.15.2.186
+   32  ssh vagrant@10.15.2.187
+   33  ssh vagrant@10.15.2.118
+   34  ssh vagrant@10.15.2.185
+   35  ssh vagrant@10.15.2.56
+   36  ssh vagrant@10.15.2.185
+   37  sudo apt-get install evolution-ews
+   38  sudo openconnect --protocol=gp 124.153.65.2
+   39  sudo openconnect --protocol=gp vpn.ntti3.com
+   40  sudo openconnect --protocol=gp 124.153.65.2
+   41  sudo su -
+   42  sudo openconnect --protocol=gp 124.153.65.2
+   43  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+   44  sudo openconnect --protocol=gp vpn.ntti3.com
+   45  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+   46  sudo openconnect --protocol=gp vpn.ntti3.com
+   47  sudo openconnect --help
+   48  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+   49  sudo openconnect --protocol=gp vpn.ntti3.com --dump -vvv
+   50  sudo openconnect --protocol=gp vpn.ntti3.com
+   51  sudo lsusb
+   52  lspci
+   53  sudo openconnect --protocol=gp vpn.ntti3.com
+   54  ssh vagrant@10.15.2.56
+   55  ssh vagrant@10.15.2.186
+   56  ssh vagrant@10.15.2.57
+   57  ssh eseuser@10.30.3.114
+   58  ssh vagarnt@10.15.2.185
+   59  ssh vagrant@10.15.2.185
+   60  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+   61  sudo openconnect --protocol=gp vpn.ntti3.com
+   62  sudo su -
+   63  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+   64  sudo su -
+   65  ping 169.254.75.13
+   66  ifconfig
+   67  netstat -natp | grep 22
+   68  sudo su -
+   69  sudo apt-get install ecryptfs-utils cryptsetup
+   70  ecryptfs-unwrap-passphrase 
+   71  sudo ecryptfs-setup-swap
+   72  sudo su -
+   73  sudo ecryptfs-setup-swap
+   74  sudo dd if=/dev/zero of=/dev/mapper/cryptswap1 count=32304512
+   75  sudo mkswap /dev/mapper/cryptswap1 
+   76  sudo swapon /dev/mapper/cryptswap1
+   77  chmod 0600 /dev/mapper/cryptswap1 
+   78  sudo chmod 0600 /dev/mapper/cryptswap1 
+   79  sudo swapon /dev/mapper/cryptswap1
+   80  swapon /dev/mapper/cryptswap1
+   81  sudo swapon /dev/mapper/cryptswap1
+   82  sudo /usr/bin/ecryptfs-setup-swap
+   83  cat /etc/fstab 
+   84  df -h
+   85  sudo swapon /dev/mapper/cryptswap1
+   86  sudo mkswap /dev/mapper/cryptswap1 
+   87  sudo swapon /dev/mapper/cryptswap1
+   88  sudo swapon 
+   89  sudo swapon --help
+   90  sudo swapon /dev/mapper/cryptswap1
+   91  sudo swapon cryptswap1
+   92  sudo mkswap /dev/mapper/cryptswap1 
+   93  sudo swapon UUID=8d9e0674-e47c-4a00-9ec7-97ab38aa3e9d
+   94  sudo mkswap --help
+   95  sudo mkswap -L myswap /dev/mapper/cryptswap1 
+   96  sudo swapon -L myswap
+   97  sudo chown root:root /dev/mapper/cryptswap1 
+   98  sudo chmod 0600 /dev/mapper/cryptswap1 
+   99  sudo swapon /dev/mapper/cryptswap1
+  100  cat /proc/swaps 
+  101  sudo swapon /dev/mapper/cryptswap1
+  102  sudo mv /dev/mapper/cryptswap1 /
+  103  ls -l /
+  104  sudo swapon /cryptswap1
+  105  sudo ecryptfs-setup-swap 
+  106  cat /etc/fstab 
+  107  sudo nano /etc/fstab 
+  108  reboot
+  109  cat /proc/swaps 
+  110  sudo ecryptfs-setup-swap 
+  111  sudo nano /etc/crypttab 
+  112  df -h
+  113  fdisk -l
+  114  sudo fdisk -l
+  115  sudo ecryptfs-stat 
+  116  sudo ecryptfs-manager 
+  117  sudo su -
+  118  ls .ssh/
+  119  cp .ssh/id_rsa* .
+  120  ls
+  121  rm id_rsa id_rsa.pub 
+  122  ls
+  123  ls .ssh/
+  124  ls /home/
+  125  ls -A /home/
+  126  ls --help
+  127  ls -A /home/
+  128  ls -lA /home/
+  129  ls /home/nileshv.W712kCRG/
+  130  ls /home/nileshv.W712kCRG/Documents/
+  131  sudo su -
+  132  ls -l
+  133  ls -lA /home/
+  134  ls -lA /
+  135  ls -lA /home/nileshv/
+  136  ls -lA /home/.ecryptfs/
+  137  swapon -s
+  138  ct /proc/swaps 
+  139  cat /proc/swaps 
+  140  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  141  swapon -s
+  142  df -h
+  143  fdisk -l
+  144  sudo fdisk -l
+  145  sudo su -
+  146  ssh 10.5.2.57
+  147  ssh vagrant@10.15.2.57
+  148  ssh 10.30.3.115
+  149  ssh eseuser@10.30.3.115
+  150  ssh nileshv@10.30.3.115
+  151  ssh nilesh.vaity@10.30.3.115
+  152  ls
+  153  cd Documents/NTTi3/sessions/
+  154  ls
+  155  ssh -i netmagicese eseuser@10.30.3.115
+  156  chmod 0644 netmagicese 
+  157  chmod 0664 netmagicese 
+  158  ssh -i netmagicese eseuser@10.30.3.115
+  159  chmod 0600 netmagicese 
+  160  ssh -i netmagicese eseuser@10.30.3.115
+  161  ls -l netmagicese 
+  162  ssh -i netmagicese eseuser@10.30.3.115
+  163  ssh vagrant@10.15.2.185
+  164  sudo openconnect --protocol=gp vpn.ntti3.com
+  165  ssh vagrant@10.15.2.56
+  166  ssh vagrant@10.15.2.57
+  167  ssh vagrant@10.15.2.185
+  168  ssh vagrant@10.15.2.186
+  169  cd Documents/NTTi3/sessions/
+  170  ssh -i netmagicese eseuser@10.30.3.115
+  171  ssh vagrant@10.15.2.185
+  172  ssh vagrant@10.15.2.186
+  173  cd Documents/NTTi3/sessions/
+  174  ssh -i netmagicese eseuser@10.30.3.115
+  175  ssh vagrant@10.15.7.35
+  176  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  177  sudo openconnect --protocol=gp vpn.ntti3.com
+  178  cd Documents/NTTi3/sessions/
+  179  ssh -i netmagicese eseuser@10.30.3.115
+  180  ssh vagrant@10.15.2.186
+  181  ssh -i netmagicese eseuser@10.30.3.116
+  182  cd Documents/NTTi3/sessions/
+  183  ssh -i netmagicese eseuser@10.30.3.116
+  184  cd Documents/NTTi3/sessions/
+  185  ssh -i netmagicese eseuser@10.30.3.116
+  186  ssh vagrant@10.15.2.186
+  187  ssh vagrant@10.15.2.56
+  188  ssh vagrant@10.15.2.57
+  189  ssh -i netmagicese eseuser@10.30.3.115
+  190  cd Documents/NTTi3/sessions/
+  191  ssh -i netmagicese eseuser@10.30.3.116
+  192  sudo openconnect --protocol=gp vpn.ntti3.com
+  193  cd Documents/NTTi3/sessions/
+  194  ssh -i netmagicese eseuser@10.30.3.116
+  195  cd Documents/NTTi3/sessions/
+  196  ssh -i netmagicese eseuser@10.30.3.116
+  197  cd Documents/NTTi3/sessions/
+  198  sudo openconnect --protocol=gp vpn.ntti3.com
+  199  cd
+  200  sudo openconnect --protocol=gp vpn.ntti3.com
+  201  ssh -i netmagicese eseuser@10.30.3.115
+  202  cd Documents/NTTi3/sessions/
+  203  ssh -i netmagicese eseuser@10.30.3.115
+  204  ssh vagrant@10.15.2.185
+  205  ssh vagrant@10.15.2.186
+  206  ssh vagrant@10.15.2.187
+  207  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  208  ssh vagrant@10.15.2.201
+  209  ssh vagrant@10.15.2.183
+  210  sudo openconnect --protocol=gp vpn.ntti3.com
+  211  nc
+  212  ifconfig
+  213  nc -vz 192.168.10.202 22
+  214  nc -vz 192.168.10.202 443
+  215  nc
+  216  ssh vagrant@10.15.2.24
+  217  sudo openconnect --protocol=gp vpn.ntti3.com
+  218  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  219  ssh -i netmagicese eseuser@10.30.3.115
+  220  cd Documents/NTTi3/sessions/
+  221  ssh -i netmagicese eseuser@10.30.3.115
+  222  ssh vagrant@10.15.2.186
+  223  sudo vi /etc/ld.so.conf
+  224  sudo nano /etc/ld.so.conf
+  225  ldconfig
+  226  ldd 
+  227  ldd --help 
+  228  sudo nano /etc/ld.so.conf
+  229  less /etc/ld.so.conf.d/libc.conf 
+  230  sudo nano /etc/ld.so.conf
+  231  less /etc/ld.so.conf.d/fakeroot-x86_64-linux-gnu.conf 
+  232  less /
+  233  less /etc/ld.so.conf.d/x86_64-linux-gnu_EGL.conf 
+  234  sudo nano /etc/ld.so.conf
+  235  ls -l /usr/lib
+  236  ls -l /usr/local/lib/
+  237  ls -l /usr/lib
+  238  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  239  sudo openconnect --protocol=gp vpn.ntti3.com
+  240  ssh -i netmagicese eseuser@10.30.3.115
+  241  cd Documents/NTTi3/sessions/
+  242  ssh -i netmagicese eseuser@10.30.3.115
+  243  ssh vagrant@10.15.2.187
+  244  ssh ankipa@192.168.10.202:/home/ankitpa/Desktop/*.pdf .
+  245  ifconfig
+  246  ssh ankitpa@192.168.10.202:/home/ankitpa/Desktop/*.pdf .
+  247  scp ankitpa@192.168.10.202:/home/ankitpa/Desktop/*.pdf .
+  248  sudo openconnect --protocol=gp vpn.ntti3.com
+  249  ssh vagrant@10.15.2.187
+  250  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  251  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  252  sudo openconnect --protocol=gp vpn.ntti3.com
+  253  ssh vagrant@10.15.2.118
+  254  sudo openconnect --protocol=gp vpn.ntti3.com
+  255  ssh root@10.15.2.183
+  256  sudo openconnect --protocol=gp vpn.ntti3.com
+  257  ssh vagrant@10.15.2.186
+  258  ssh root@10.15.2.24
+  259  ssh root@10.15.2.183
+  260  ssh vagrant@10.15.2.56
+  261  ssh vagarnt@10.15.2.185
+  262  ssh vagrant@10.15.2.185
+  263  ssh vagrant@10.15.2.118
+  264  ssh vagrant@10.15.2.185
+  265  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  266  ssh root@10.15.2.24
+  267  ssh vagrant@10.15.2.185
+  268  ssh root@10.15.2.183
+  269  ssh vagrant@10.15.2.185
+  270  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  271  sudo openconnect --protocol=gp vpn.ntti3.com
+  272  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  273  ssh root@10.15.2.183
+  274  ssh root@10.15.2.24
+  275  ssh root@10.15.2.183
+  276  ssh root@10.15.2.183
+  277  sudo openconnect --protocol=gp vpn.ntti3.com
+  278  ssh -i netmagicese eseuser@10.30.3.115
+  279  cd Documents/NTTi3/sessions/
+  280  ssh -i netmagicese eseuser@10.30.3.115
+  281  ping google.com
+  282  ping 192.168.25.1
+  283  ping google.com
+  284  xdg-open
+  285  xdg-open --manual
+  286  xdg-open --manual https://ringcentral.zoom.us/download
+  287  sudo openconnect --protocol=gp vpn.ntti3.com
+  288  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  289  sudo su -
+  290  zoom
+  291  sudo su -
+  292  ssh vagrant@10.15.2.154
+  293  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  294  sudo openconnect --protocol=gp vpn.ntti3.com
+  295  ssh -i netmagicese eseuser@10.30.3.116
+  296  ssh -i netmagicese eseuser@10.30.3.117
+  297  ssh -i netmagicese eseuser@10.30.3.115
+  298  cd Documents/NTTi3/sessions/
+  299  ssh -i netmagicese eseuser@10.30.3.115
+  300  ssh vagrant@10.15.2.187
+  301  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  302  sudo openconnect --protocol=gp vpn.ntti3.com
+  303  sudo openconnect --protocol=gp 124.153.65.2 --servercert sha256:798d8f353adf16c944a2c443df95f438669313dbba08c8f7003c2b2ed78ffcb8
+  304  sudo su -
+  305  git config --global user.email "nileshvaity@gmail.com"
+  306  git config --global user.name "nileshvaity"
+  307  ls
+  308  cd Pictures/
+  309  ls
+  310  cd git/
+  311  ls
+  312  git init
+  313  ls -la
+  314  ls .git/
+  315  git status
+  316  git add
+  317  git add .
+  318  git status
+  319  git commit -m "first commit change"
+  320  git status
+  321  git status
+  322  git add git2-6.png
+  323  git commit
+  324  git commit -m "added git2-6.png"
+  325  git status
+  326  git remote add origin https://github.com/nileshvaity/gitlearn.git
+  327  git push -u origin master
+  328  git log
+  329  cd 
+  330  curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+  331  vi .bashrc 
+  332  vim.tiny .bashrc 
+  333  source .bashrc 
+  334  cd -
+  335  cd 
+  336  curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+  337  cat .git-completion.bash 
+  338  cd 
+  339  cd -
+  340  cd Pictures/git
+  341  cd 
+  342  curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+  343  #After adding /home/nileshv/.git-completion.bash to .bashrc
+  344  source .bashrc 
+  345  git status 
+  346  cd -
+  347  git status 
+  348  git config color.ui 
+  349  git config --global color.ui true
+  350  git config color.ui 
+  351  git status
+  352  history 
+  353  history | tailf
+  354  history | tail -n 10
+  355  history | tail -n 8
+  356  git config color.ui 
+  357  git config --global color.ui true
+  358  git config color.ui 
+  359  git status
+  360  git commit -m "added git till tutorial 4 changes"
+  361  git push -u origin master
+  362  git log
+  363  git add .
+  364  git commit -m "added git till tutorial 4 changes"
+  365  git push -u origin master
+  366  ls
+  367  git branch gittutorials
+  368  git checkout gittutorials
+  369  git status
+  370  git branch
+  371  git status
+  372  git add .
+  373  git commit -m "added git5"
+  374  git status
+  375  git push -u origin gittutorials
+  376  git branch
+  377  git checkout master
+  378  git checkout gittutorials
+  379  git checkout master
+  380  git merge gitturorials
+  381  git merge gittutorials
+  382  git push -u origin master
+  383  git branch
+  384  git add .
+  385  git status
+  386  git commit -m "added git5"
+  387  git push -u origin master
+  388  git push -u origin gittutorials
+  389  git branch 
+  390  git status
+  391* 
+  392  git add .
+  393  git status
+  394  ls
+  395  git branch 
+  396  git checkout master
+  397  git branch 
+  398  git branch
+  399  git branch -d gittutorials
+  400  git push origin --delete gittutorials
+  401  ls
+  402  git status
+  403  git add .
+  404  git commit -m "addedd git5 complete"
+  405  git push -u origin master
+  406  git status
+  407  git add .
+  408  git commit -m "added git6"
+  409  git push -u origin master
+  410  git checkout master
+  411  git tag v1.0
+  412  git tag
+  413  git tag -a v1.1 -m "tag for release ver 1.1"
+  414  git tag
+  415  git show v1.0
+  416  git tag -l "v1.*"
+  417  git push origin v1.0
+  418  git push --tags
+  419  git tag -d v1.0
+  420  git tag
+  421  git tag --delete v1.1
+  422  git tag
+  423  git push origin -d v1.0
+  424  git tag
+  425  git tag --delete v1.0
+  426  git push origin -d v1.0
+  427  git push origin --delete v1.0
+  428  git push origin --delete v1.1
+  429  ls
+  430  ls -ltr
+  431  git add .
+  432  git commit -m "release v1.0"
+  433  git push -u origin master
+  434  git show
+  435  git tag v1.0 6a8e5ba3
+  436  git tag
+  437  git push --tags
+  438  git branch
+  439  git branch gittutorialv1
+  440  git branch
+  441  git checkout gittutorialv1
+  442  git branch
+  443  git push -u origin gittutorialv1
+  444  sync
+  445  history 
+  446  history > history_git_learn.txt
